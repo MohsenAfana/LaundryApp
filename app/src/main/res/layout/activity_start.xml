@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteBlue"
+    >
+
+
+    <Button
+        android:id="@+id/register_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="69dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/need_a_new_account_register"
+        />
+
+    <Button
+        android:id="@+id/sign_in_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/register_btn_start"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/have_an_account_sing_in_now"
+        android:layout_alignEnd="@id/register_btn_start"
+        android:layout_alignStart="@id/register_btn_start"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/textcheck"
+        android:text="@string/welcome_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@id/logo"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/van"
+        android:layout_centerInParent="true"
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LaundaryApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_screen">Welcome To Laundry App</string>
+    <string name="have_an_account_sing_in_now">Have an Account? Sing in now</string>
+    <string name="need_a_new_account_register">Need an account? <u>Register</u></string>
+    <string name="email">Email</string>
+    <string name="display_Password">display_password</string>
+    <string name="display_name">Display Name</string>
+    <string name="display_address">Display Address</string>
+
+    <string name="password">Password</string>
+    <string name="create_account_now">Create Account</string>
+    <string name="login_to_your_account">Log in to your account</string>
+    <string name="enter_your_e_mail">Enter your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log Out</string>
+    <string name="appname">Laundry App</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="how_it_works">How it Works</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string-array name="orderType">
+        <item>Dry Cleaning Service</item>
+        <item>Dry Cleaning with Ironing</item>
+    </string-array>
+</resources>
